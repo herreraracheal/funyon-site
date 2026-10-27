@@ -1,0 +1,86 @@
+/**Racheal Herrera
+Oct 26 2026
+styles.css**/
+body {
+    background-color: #FAFFFD;
+    text-align: center;
+    color: #0A0F0D;
+}
+
+h1 {
+    padding: 1%;
+    background-color: #3c91e6;
+}
+
+img {
+    width: 40%;
+}
+
+@media (min-width: 576px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+@media (min-width: 720px) {
+    body {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    img {
+        width: 60%
+    }
+
+    nav {
+        display: block;
+    }
+
+}
+
+@media (min-width: 992px) {
+    body {
+        padding: 40px;
+    }
+
+    section {
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 3%;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    img {
+        width: 90%;
+        display: block;
+        margin: auto;
+
+    }
+}
